@@ -1,0 +1,196 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 10px;
+
+}
+.logo-img{
+    height: 100px;
+    width: auto;
+    margin-right: 40px;
+    margin-left: 20px;
+
+}
+
+
+header a{
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-inline: 20px;
+    font-size: 50px;
+    margin-top: 30px;
+
+
+}
+.producthero {
+  display: flex;
+  flex-wrap: flex;
+  color: rgb(255, 255, 253);
+  justify-content: center;
+  text-align: center;
+ 
+
+}
+.product-container{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+
+}
+.product-container img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(1);
+    object-fit: cover;
+    object-position: center;
+}
+.Cookie{
+    padding: 50px 20px;
+    background-color: white;
+    
+
+}
+.Cookies{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cookiecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.cookiecard{
+    background-color:white ;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 0px;
+    width: 500px;
+    text-align: center;
+    display: center;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.cookiecard h3{
+    margin: 20px 0px 0px;
+}
+.cookie p{
+    margin: 20px;
+}
+.cookie img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.cookie-btn{
+    background-color: beige;
+    border: 1px black;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-top: auto;
+    justify-content: center;
+    display: flex;
+
+}
+.cookie-btn:hover{
+    color: rgb(255, 251, 251);
+    background-color: aliceblue;
+
+    
+}
+.Drink{
+    padding: 50px 20px;
+    background-color: white;
+    padding-bottom: 100px;
+
+}
+.Drinks{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+.drinkcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.drinkcard{
+    background-color:white ;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 0px;
+    width: 500px;
+    text-align: center;
+    display: center;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.drinkcard h3{
+    margin: 20px 0px 0px;
+}
+.drink p{
+    margin: 20px;
+}
+.drink img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.drink-btn{
+    background-color: beige;
+    border: 1px black;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-top: auto;
+    justify-content: center;
+    display: flex;
+
+}
+.drink-btn:hover{
+    color: rgb(255, 251, 251);
+    background-color: aliceblue;
+
+    
+}

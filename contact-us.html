@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/Main/css/contact-us.css">
+    <script src="/Main/javascript/contact-us.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="/Main/images/KOUKI.jpg" alt="koukilogo" class="logo-img">
+            </a>
+
+        </div>
+
+        <nav>
+            <a href="/Main/Project Root/index.html"> Home</a>
+            <a href="/Main/Project Root/index.html#bestsellers">Best Sellers</a>
+            <a href="/Main/project Root/products.html"> Products</a>
+            <a href="/Main/Project Root/index.html#about">About</a>
+            <a href="/Main/Project Root/index.html#special">Special Offer</a>
+            <a href="/Main/Project Root/contact-us.html">Contact Us</a>
+          
+
+        </nav> 
+    </header>
+    
+        <section class="hero">
+            <div class="hero-container">
+            <img src="/Main/images/feedback-banner.jpg" alt="heroimg">
+
+               
+        <div class="container">
+            <div class="getintouch">
+                <h1>Write a Feedback!</h1>
+            
+            <form id="contactus" name="contactus" action="/action_page.php" method="post">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+                <br>
+                <span id="fnameError" style="color: red;"></span>
+  <br>
+
+                <label for="number">Contact Number</label>
+                <input type="text" id="number" name="numbers" placeholder="Your contact number..">
+                <br>
+                <span id="numberError" style="color: red;"></span>
+  <br>
+
+                <label for="write">Feedback</label>
+                <textarea id="write" name="writeareview" placeholder="Write a review.." style="height:200px"></textarea>
+                <br>
+                <span id="writereviewError" style="color: red;"></span>
+  <br>
+
+            <input type="submit" value="Submit" id="submit-btn">
+            </form>
+        </div>
+    </div>
+ </section>
+<script src="/Main/javascript/contact.js"></script>      
+</body>
+</html>
